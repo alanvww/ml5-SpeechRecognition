@@ -4,9 +4,9 @@ This is a example of wrapping auto speech recognition into the ml5.js library. T
 
 ### Demo
 
-[Wrapper Demo](./wrapper/index.html)
+[Wrapper Demo](https://alanvww.github.io/ml5-SpeechRecognition/wrapper/index.html)
 [p5 web editor demo](https://editor.p5js.org/alanvww/sketches/XImsQZgHq)
 
 ### Original
 
-[Original Demo](./original/index.html)
+[Original Demo](https://alanvww.github.io/ml5-SpeechRecognition/original/index.html)
