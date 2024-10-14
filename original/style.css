@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#status {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+#memoList {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+#recordButton {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#recordButton:hover {
+    background-color: #45a049;
+}
+
+.memo-item {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;    
+    border-radius: 5px;
+}
+
+.play-button {
+    margin-left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
